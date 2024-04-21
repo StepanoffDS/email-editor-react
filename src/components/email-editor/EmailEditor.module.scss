@@ -1,0 +1,65 @@
+.card {
+	background-color: rgba($color: #000, $alpha: 0.4);
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 3px 6px rgba($color: #fff, $alpha: 0.05);
+
+	.editor {
+		padding-bottom: 1.5rem;
+		padding: 1.2rem;
+		display: block;
+		width: 100%;
+		min-height: 160px;
+		border: none;
+		outline: none;
+		background: transparent;
+		box-sizing: border-box;
+		resize: none;
+	}
+
+	.actions {
+		background-color: rgba($color: #fff, $alpha: 0.05);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0.3rem 0.2rem;
+
+		.tools {
+			> button {
+				margin-right: 0.4rem;
+				background-color: transparent;
+				border: none;
+				cursor: pointer;
+				transition: color 0.3s ease-in-out;
+
+				&:hover {
+					color: burlywood;
+				}
+			}
+		}
+
+		> button {
+			border-radius: 8px;
+			border: 1px solid transparent;
+			padding: 0.6em 1.2em;
+			font-size: 1em;
+			font-weight: 500;
+			font-family: inherit;
+			background-color: #1a1a1a;
+			cursor: pointer;
+			transition: border-color 0.3s;
+
+			&:hover {
+				border-color: #646cff;
+			}
+			&:focus,
+			&:focus-visible {
+				outline: 4px auto -webkit-focus-ring-color;
+			}
+		}
+	}
+}
+
+.read-the-docs {
+	color: #888;
+}

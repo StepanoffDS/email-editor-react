@@ -1,0 +1,16 @@
+{
+  "emails": [
+    {
+      "id": "fae8",
+      "text": "Hey! Lorem ipsum dolor sit amet consectetur adipisicing elit.\n\tMolestias saepe ratione magnam distinctio fugiat porro nobis inventore\n\tquisquam quae dignissimos. Omnis voluptatem unde quasi blanditiis illo\n\texercitationem iusto illum cupiditate?"
+    },
+    {
+      "id": "4268",
+      "text": "Hey! Lorem ipsum dolor sit amet consectetur adipisicing elit.\n\tMolestias saepe ratione magnam distinctio fugiat porro nobis inventore\n\tquisquam quae dignissimos. Omnis voluptatem unde quasi blanditiis illo\n\texercitationem iusto illum cupiditate?"
+    },
+    {
+      "id": "097d",
+      "text": "<i>Hello</i>! My <u>name is Dima</u>. It's my first <b>react app</b>"
+    }
+  ]
+}
